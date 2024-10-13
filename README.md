@@ -6,6 +6,13 @@ This ES module bundles required JS and CSS files of Glide.js and provide a wrapp
 
 ![image](https://github.com/user-attachments/assets/d6b4c318-3a55-4d92-b727-33ee38362ed6)
 
+## Use as ES Module
+
+![image](https://github.com/user-attachments/assets/6b4b33da-f2b3-46e3-9503-7081887cf90f)
+
+## Use in script tag
+
+![image](https://github.com/user-attachments/assets/bede3d3b-5584-4c65-af94-9a95fbc5eafd)
 
 ## How to use
 
