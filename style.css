@@ -1,0 +1,22 @@
+@layer reset {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
+}
+
+@layer base-color {
+  :root {
+    --text-color: #ccc;
+    --bg-color: #121212;
+  }
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}

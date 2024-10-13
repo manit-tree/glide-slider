@@ -1,0 +1,37 @@
+.glide {
+    .glide__track {
+        .glide__slides {
+            height: 100%;
+
+            .glide__slide {
+                display: grid;
+                place-content: center;
+                background-color: rgba(255,255,255,0.05);
+                aspect-ratio: 4 / 3;
+                font-size: 34px;
+            }
+        }
+    }
+
+    .glide__arrows {
+        .glide__arrow {
+            border: 0;
+            box-shadow: none;
+            padding: 0;
+            width: var(--arrow-width, 42px);
+            height: var(--arrow-height, 42px);
+
+            &.glide__arrow--left {
+                left: 1.25em;
+            }
+
+            &.glide__arrow--right {
+                right: 1.25em;
+            }
+        }
+    }
+
+    .glide__bullets {
+        bottom: 1.25em;
+    }
+}
